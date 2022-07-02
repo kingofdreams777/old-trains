@@ -1,0 +1,24 @@
+<div>
+    <img class="bulb" src="assets/imgs/bulb.gif">
+    <h3>Bulb Index --</h3>
+    <h4>Click on the desired category</h4>
+
+    <a routerLink="">Home</a>
+    <a href="#locomotives" target="_self">Locomotives</a>
+
+    <table id="locomotives">
+        <thead>
+            <th>Locomotives</th>
+            <th>Bulb</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let loc of locomotives">
+                <td>{{ loc.model }}</td>
+                <td>{{ loc.bulb }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a routerLink="">Home</a>
+    <a href="#locomotives" target="_self">Locomotives</a>
+</div>
