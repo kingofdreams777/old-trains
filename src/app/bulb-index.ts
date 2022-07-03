@@ -1,4 +1,4 @@
-export interface LocomotiveBulb {
+export interface BulbIndex {
     model: string;
     bulb: string;
 }

@@ -19,6 +19,43 @@
         </tbody>
     </table>
 
+    <br>
+
     <a routerLink="">Home</a>
     <a href="#locomotives" target="_self">Locomotives</a>
+
+    <br>
+
+    <table id="tenders">
+        <thead>
+            <th>Tenders</th>
+            <th>Bulb</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let ten of tenders">
+                <td>{{ ten.model }}</td>
+                <td>{{ ten.bulb }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <a routerLink="">Home</a>
+    <a href="#locomotives" target="_self">Locomotives</a>
+
+    <br>
+
+    <table id="accessories">
+        <thead>
+            <th>Accessories</th>
+            <th>Bulb</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let acc of accessories">
+                <td>{{ acc.model }}</td>
+                <td>{{ acc.bulb }}</td>
+            </tr>
+        </tbody>
+    </table>
 </div>

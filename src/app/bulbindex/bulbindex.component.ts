@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { LocomotiveBulb } from '../locomotive-bulb';
+import { BulbIndex } from '../bulb-index';
 import { LOCOMOTIVEBULBS } from 'src/assets/data/locomotive-list';
+import { TENDERSBULBS } from 'src/assets/data/tenders-list';
+import { ACCESSORIESBULB } from 'src/assets/data/accessory-list';
 
 @Component({
   selector: 'app-bulbindex',
@@ -9,7 +11,9 @@ import { LOCOMOTIVEBULBS } from 'src/assets/data/locomotive-list';
 })
 export class BulbindexComponent implements OnInit {
 
-  locomotives : LocomotiveBulb[] = LOCOMOTIVEBULBS
+  locomotives : BulbIndex[] = LOCOMOTIVEBULBS;
+  tenders: BulbIndex[] = TENDERSBULBS;
+  accessories: BulbIndex[] = ACCESSORIESBULB;
 
   constructor() { }
 

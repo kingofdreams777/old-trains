@@ -1,6 +1,6 @@
-import { LocomotiveBulb } from "src/app/locomotive-bulb";
+import { BulbIndex } from "src/app/bulb-index"
 
-export const LOCOMOTIVEBULBS: LocomotiveBulb[] = [
+export const LOCOMOTIVEBULBS: BulbIndex[] = [
 {model: "44 USA Missile Launcher", bulb: "19R"}
 ,{model: "45 USMC Missile Launcher", bulb: "19R"}
 ,{model: "52 Fire Fighting Car", bulb: "57 or 257 flashing"}
