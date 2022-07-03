@@ -10,6 +10,7 @@ import { ToolsandmaterialsComponent } from './toolsandmaterials/toolsandmaterial
 import { TechnicaltipsComponent } from './technicaltips/technicaltips.component';
 import { InterestinglinksComponent } from './interestinglinks/interestinglinks.component';
 import { BulbindexComponent } from './bulbindex/bulbindex.component';
+import { VideosComponent } from './videos/videos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BulbindexComponent } from './bulbindex/bulbindex.component';
     ToolsandmaterialsComponent,
     TechnicaltipsComponent,
     InterestinglinksComponent,
-    BulbindexComponent
+    BulbindexComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,

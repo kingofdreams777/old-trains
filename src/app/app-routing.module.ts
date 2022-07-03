@@ -8,6 +8,7 @@ import { ToolsandmaterialsComponent } from './toolsandmaterials/toolsandmaterial
 import { TechnicaltipsComponent } from './technicaltips/technicaltips.component';
 import { InterestinglinksComponent } from './interestinglinks/interestinglinks.component';
 import { BulbindexComponent } from './bulbindex/bulbindex.component';
+import { VideosComponent } from './videos/videos.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'tools_and_materials', component: ToolsandmaterialsComponent},
   {path: 'technical_tips', component: TechnicaltipsComponent},
   {path: 'interesting_links', component: InterestinglinksComponent},
-  {path: 'bulb_list', component: BulbindexComponent}
+  {path: 'bulb_list', component: BulbindexComponent},
+  {path: 'buy_videos', component: VideosComponent}
 ]
 
 

@@ -58,4 +58,44 @@
             </tr>
         </tbody>
     </table>
+
+    <br>
+
+    <a routerLink="">Home</a>
+    <a href="#locomotives" target="_self">Locomotives</a>
+
+    <br>
+
+    <table id="operatingcars">
+        <thead>
+            <th>Operating Cars</th>
+            <th>Bulb</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let op of operatingcars">
+                <td>{{ op.model }}</td>
+                <td>{{ op.bulb }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <a routerLink="">Home</a>
+    <a href="#locomotives" target="_self">Locomotives</a>
+
+    <br>
+
+    <table id="transformers">
+        <thead>
+            <th>Transformers</th>
+            <th>Bulb</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let tr of transformers">
+                <td>{{ tr.model }}</td>
+                <td>{{ tr.bulb }}</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
